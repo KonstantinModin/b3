@@ -6,8 +6,7 @@ const FeatureOne = () => {
         <Container className="feature-content">
             <Row>                   
                 <Col lg={6} >
-                    <iframe
-                        samesite="none"
+                    <iframe                        
                         title="video-feature-one" 
                         width="100%" 
                         height="315" 
