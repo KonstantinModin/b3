@@ -52,6 +52,7 @@ img {
     margin: 0 auto;
     text-align: center;
 }
+
 .stage .stage-caption h1 {
     color: white;
     font-weight: 400;
@@ -61,4 +62,23 @@ img {
 .feature-content {
     padding: 6rem;
     overflow: hidden;
+    width: 100%;
+}
+
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+
+.container {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100vw;
+    border: 1px solid red;
+    /* display: flex;     */
+}
+
+.border{
+    border: 1px solid red;
+
 }

@@ -3,6 +3,7 @@ import NavBarMain from './NavBarMain';
 import Stage from './Stage';
 import FeatureOne from './FeatureOne';
 import FeatureTwo from './FeatureTwo';
+import { Container } from 'react-bootstrap';
 import './App.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <NavBarMain />
       <Stage />
       <FeatureOne />      
-      <FeatureTwo />      
+      <FeatureTwo /> 
+      {/* <div className="border">Some shit</div>      */}
     </>
   );
 }

@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const FeatureOne = () => {
     return (        
-        <Container className="feature-content">
-            <Row>                   
+        <div>
+            <Row className="feature-content">                   
                 <Col lg={6} >
                     <iframe                        
                         title="video-feature-one" 
@@ -23,7 +23,7 @@ const FeatureOne = () => {
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quisquam id necessitatibus fugit sequi ab nemo illum pariatur! Maiores non modi reiciendis dolores, rerum fugiat obcaecati nulla et repudiandae blanditiis!</p>
                 </Col>                   
             </Row>
-        </Container>        
+        </div>        
     )
 }
 
