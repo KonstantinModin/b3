@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarMain from './NavBarMain';
 import Stage from './Stage';
+import FeatureOne from './FeatureOne';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>      
       <NavBarMain />
       <Stage />
+      <FeatureOne />      
     </>
   );
 }
