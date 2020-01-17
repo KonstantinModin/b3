@@ -90,3 +90,8 @@ img {
 .feature-content img {
     margin-bottom: -6rem;
 }
+
+.feature-caption button {
+    width: 50%;
+    margin-bottom: 1rem;
+}
