@@ -82,3 +82,7 @@ img {
     border: 1px solid red;
 
 }
+
+.feature-dark .feature-content .feature-caption h2 {
+    color: white;
+}
