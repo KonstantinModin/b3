@@ -86,3 +86,7 @@ img {
 .feature-dark .feature-content .feature-caption h2 {
     color: white;
 }
+
+.feature-content img {
+    margin-bottom: -6rem;
+}
