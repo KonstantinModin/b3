@@ -42,7 +42,6 @@ img {
     width: 100%;
     display: flex;
     align-items: center;
-
 }
 
 .stage .stage-caption {
@@ -74,13 +73,7 @@ img {
     margin: 0 0 0 0;
     padding: 0;
     width: 100vw;
-    border: 1px solid red;
-    /* display: flex;     */
-}
-
-.border{
-    border: 1px solid red;
-
+      
 }
 
 .feature-dark .feature-content .feature-caption h2 {
