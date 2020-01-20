@@ -1,5 +1,4 @@
 import React from 'react';
-import picture from './iphone-1.png'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const FeatureTwo = () => {

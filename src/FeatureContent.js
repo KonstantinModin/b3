@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import picture from './iphone-1.png';
+import mac from './macbook.png';
 
 const arr = [
-    [
-        (
+    {
+        a: (
             <iframe                        
               title="video-feature-one" 
               width="100%" 
@@ -15,24 +16,43 @@ const arr = [
               allowFullScreen>                                    
             </iframe>
         ),
-        (<>
+        b: (<>
         <h6>Watch this</h6>
         <h2>Witness the power of Startup.logo in this video</h2>
         <p className="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quisquam id necessitatibus fugit sequi ab nemo illum pariatur! Maiores non modi reiciendis dolores, rerum fugiat obcaecati nulla et repudiandae blanditiis!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quisquam id necessitatibus fugit sequi ab nemo illum pariatur! Maiores non modi reiciendis dolores, rerum fugiat obcaecati nulla et repudiandae blanditiis!</p>
         </>),
-        false
-    ],
-    [
-        (<>
+        dark:false,
+        order:true,
+        hide: false
+    },
+    {
+        a:(<img src={picture} alt=""/>),
+        b:(<>
             <h6>Incredible feature</h6>
             <h2>Totally random website. At the touch of your finger pads.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cumque obcaecati quidem earum distinctio temporibus, delectus perferendis porro similique beatae tempora saepe aut omnis quo. Iusto ipsum dolores molestiae voluptates?</p>
             <Button variant="outline-success">Get in on the action</Button>  
         </>),
-        (<img src={picture} alt=""/>),
-        true
-    ]
+        dark:true,
+        order:false,
+        hide: true
+    },
+    {
+        a:(
+            <img src={mac} alt="mac" />
+        ),
+        b:(<>
+            <h6>The wow factor</h6>
+            <h2>Australians wouldn't give a Stratup.logo for anything else.</h2>
+            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tempore, fugit, molestiae ipsam ipsa suscipit enim eligendi voluptatibus autem placeat pariatur illo earum. Doloribus ullam veniam, ab officia dignissimos autem?</p>
+            <Button variant="outline-primary">Git'r done!</Button>
+        </>)
+        ,
+        dark:false,
+        order:true,
+        hide:true
+    }
 ];
 
 export default arr;
