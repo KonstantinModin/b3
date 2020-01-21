@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import picture from './iphone-1.png';
+import elvis from './brad-elvis.png';
 import mac from './macbook.png';
 
 const arr = [
@@ -52,6 +53,24 @@ const arr = [
         dark:false,
         order:true,
         hide:true
+    },
+    {
+        a: (<>
+            <h6>Kudos</h6>
+            <blockquote className="blockquote">
+                &ldquo;No Startup.logo no kiss.&rdquo;
+                <footer className="blockquote-footer">
+                    Brelvis Hesley, <cite>some guy at a wedding</cite>
+                </footer>
+            </blockquote>
+        </>),
+        b: (
+            <img src={elvis} alt="elvis" />
+        ),
+        dark:false,
+        order:true,
+        hide:true,
+        alt:true
     }
 ];
 
