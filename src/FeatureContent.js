@@ -3,8 +3,9 @@ import { Button } from 'react-bootstrap';
 import picture from './iphone-1.png';
 import elvis from './brad-elvis.png';
 import mac from './macbook.png';
+import ipad from './ipad.png';
 
-const arr = [
+const arr1 = [
     {
         a: (
             <iframe                        
@@ -55,7 +56,10 @@ const arr = [
         hide:true
     },
     {
-        a: (<>
+        a: (
+            <img src={elvis} alt="elvis" />
+        ),
+        b: (<>
             <h6>Kudos</h6>
             <blockquote className="blockquote">
                 &ldquo;No Startup.logo no kiss.&rdquo;
@@ -64,14 +68,28 @@ const arr = [
                 </footer>
             </blockquote>
         </>),
-        b: (
-            <img src={elvis} alt="elvis" />
-        ),
         dark:false,
-        order:true,
+        order:false,
         hide:true,
         alt:true
     }
 ];
 
-export default arr;
+const arr2 = [
+    {
+        a:(
+            <img src={ipad} alt="ipad" />
+        ),
+        b:(<>
+            <h6>The all-in-one solution</h6>
+            <h2>Nobody doesn't like Startup.logo</h2>
+            <p className="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veritatis aliquam exercitationem doloremque cum iure accusantium ipsum, commodi, atque facilis fugit sit ab voluptas deserunt autem error nobis doloribus animi!</p>
+            <Button variant="outline-success">Mangos! (or mangoes?)</Button>  
+        </>),
+        dark:true,
+        order:true,
+        hide: true
+    }
+];
+
+export { arr1, arr2 };

@@ -2,7 +2,8 @@ import React from 'react';
 import NavBarMain from './NavBarMain';
 import Stage from './Stage';
 import Feature from './Feature';
-import arr from './FeatureContent';
+import FeatureFive from './FeatureFive';
+import { arr1, arr2 } from './FeatureContent';
 import { Container } from 'react-bootstrap';
 import './App.css';
 
@@ -11,9 +12,13 @@ function App() {
     <>      
       <NavBarMain />
       <Stage />
-      {arr.map(({a, b, dark, order, hide, alt}, i)=>
+      {arr1.map(({a, b, dark, order, hide, alt}, i)=>
         <Feature key={i} col1={a} col2={b} dark={dark} order={order} hide={hide} alt={alt}/>
-      )}      
+      )}
+      <FeatureFive />      
+      {arr2.map(({a, b, dark, order, hide, alt}, i)=>
+        <Feature key={i} col1={a} col2={b} dark={dark} order={order} hide={hide} alt={alt}/>
+      )}
     </>
   );
 }
