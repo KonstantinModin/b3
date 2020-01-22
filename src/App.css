@@ -77,14 +77,7 @@ img {
     padding: 0;
 }
 
-.container {
-    margin: 0 0 0 0;
-    padding: 0;
-    width: 100vw;
-      
-}
-
-.feature-dark .feature-content .feature-caption h2 {
+.feature-dark h2 {
     color: white;
 }
 
@@ -96,3 +89,10 @@ img {
     width: 50%;
     margin-bottom: 1rem;
 }
+
+@media screen and ( min-width : 991 px ) {
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+} 
