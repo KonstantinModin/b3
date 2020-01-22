@@ -2,26 +2,21 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Feature = ({ col1, col2, dark, order, hide, alt}) => {
-    const rowLeftClass = 
-        [!order?"feature-caption d-flex flex-column justify-content-center align-items-center":"",
-        hide&&!order?"d-none d-sm-block":""].join` `;
-    
-    const rowRightClass = 
-        [order?"feature-caption d-flex flex-column justify-content-center align-items-center":"",
-        order?"d-none d-cm-block":""].join` `;
+    const leftColClass = hide ? "d-none d-sm-block" : "";    
+    const rightColClass = "feature-caption d-flex flex-column justify-content-center align-items-center";
     
     return (        
         <div className={dark?"feature-dark":alt?"feature-alt":""}>
             <Row className="feature-content">                   
                 <Col 
                     lg={{span:order?6:5, order:2, offset:order?0:1}} 
-                    className={rowLeftClass}                    
+                    className={leftColClass}                    
                 >
                     {col1}
                 </Col>
                 <Col 
                     lg={{span:order?5:6, offset:order?1:0,order:order?3:1}}                     
-                    className={rowRightClass}>
+                    className={rightColClass}>
                     {col2}
                 </Col>                   
             </Row>

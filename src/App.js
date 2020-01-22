@@ -3,6 +3,7 @@ import NavBarMain from './NavBarMain';
 import Stage from './Stage';
 import Feature from './Feature';
 import FeatureFive from './FeatureFive';
+import MoneyBack from './Money';
 import { arr1, arr2 } from './FeatureContent';
 import { Container } from 'react-bootstrap';
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
       {arr2.map(({a, b, dark, order, hide, alt}, i)=>
         <Feature key={i} col1={a} col2={b} dark={dark} order={order} hide={hide} alt={alt}/>
       )}
+      <MoneyBack />
     </>
   );
 }

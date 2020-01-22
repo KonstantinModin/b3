@@ -69,6 +69,10 @@ img {
     color: white;
 }
 
+.feature-dark h6 {
+    align-self: center;
+}
+
 .feature-alt {
     background: #f0f0f0;
 }
