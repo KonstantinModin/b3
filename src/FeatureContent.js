@@ -28,8 +28,9 @@ const arr1 = [
         order:true,
         hide: false
     },
+//MARK: Second Feature
     {
-        a:(<img src={picture} alt=""/>),
+        a:(<img className="fluid" src={picture} alt=""/>),
         b:(<>
             <h6>Incredible feature</h6>
             <h2>Totally random website. At the touch of your finger pads.</h2>
@@ -42,7 +43,7 @@ const arr1 = [
     },
     {
         a:(
-            <img src={mac} alt="mac" />
+            <img className="img-fluid" src={mac} alt="mac" />
         ),
         b:(<>
             <h6>The wow factor</h6>

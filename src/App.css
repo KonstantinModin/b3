@@ -20,7 +20,7 @@ h6 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 .blockquote {
@@ -92,6 +92,17 @@ img {
 .feature-caption button {
     width: 50%;
     margin-bottom: 1rem;
+}
+
+.footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 2rem;
+    font-size: 0.8rem;
+}
+
+.footer h6 {
+    color: #718FA9;
 }
 
 @media screen and ( min-width : 991 px ) {
