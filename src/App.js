@@ -6,8 +6,7 @@ import FeatureFive from './FeatureFive';
 import MoneyBack from './Money';
 import Footer from './Footer';
 import { arr1, arr2 } from './FeatureContent';
-import { Container } from 'react-bootstrap';
-import './css/app.css';
+import './App.css';
 
 function App() {  
   return (

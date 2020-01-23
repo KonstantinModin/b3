@@ -1,0 +1,115 @@
+// add your custom styles here
+// to learn more about SASS, visit sass-lang.com
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;    
+}
+
+.blockquote {
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer {
+    margin: 1rem 0 0;
+}
+
+.stage {
+    background: url(../stage.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.stage .stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stage .stage-caption h1 {
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.feature-content {
+    padding: 6rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+
+.feature-dark h6 {
+    align-self: center;
+}
+
+.feature-alt {
+    background: #f0f0f0;
+}
+
+.feature-alt .feature-content {
+    padding: 0;
+}
+
+.feature-dark h2 {
+    color: white;
+}
+
+.feature-content img {
+    margin-bottom: -6rem;
+}
+
+.feature-caption button {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 2rem;
+    font-size: 0.8rem;
+}
+
+.footer h6 {
+    color: #718FA9;
+}
+
+@media screen and ( min-width : 991 px ) {
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+} 

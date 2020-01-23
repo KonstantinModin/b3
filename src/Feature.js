@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 const Feature = ({ col1, col2, dark, order, hide, alt}) => {
     const leftColClass = hide ? "d-none d-lg-block" : "";    
