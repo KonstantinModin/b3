@@ -7,7 +7,7 @@ import MoneyBack from './Money';
 import Footer from './Footer';
 import { arr1, arr2 } from './FeatureContent';
 import { Container } from 'react-bootstrap';
-import './App.css';
+import './css/app.css';
 
 function App() {  
   return (
